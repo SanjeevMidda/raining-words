@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+h3{
+  position: relative;
+  animation: move infinite linear;
+  /* animation-fill-mode: backwards; */
+  
+}
+
+@keyframes move {
+  from{top: -1300px}
+  to{top: 900px;}
+}
